@@ -9,6 +9,12 @@ class Confirmation extends CI_Controller {
         parent::__construct();
     }
 
+
+
+
+
+
+
     function index() {
         $confirmation = $this->input->get('q');
         if (!$confirmation) {
